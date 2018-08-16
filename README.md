@@ -1,7 +1,9 @@
-AngularJS1 Directive Controller Demo
-====================================
+AngularJS1 Directive Execution Log Demo
+=======================================
 
-Define a directive with controller, in [AngularJS1](https://angularjs.org/).
+Define a directive to track execution of directives, in [AngularJS1](https://angularjs.org/).
+
+The code is copied from https://stackoverflow.com/a/24615162/342235
 
 ```
 npm install
@@ -9,8 +11,6 @@ open index.html
 ```
 
 ![demo](./images/demo.jpg)
-
-`controller` is like normal angular controller, but you can get `$element` and `$attrs` to interact with the DOM.
 
 Traps in the code
 -----------------

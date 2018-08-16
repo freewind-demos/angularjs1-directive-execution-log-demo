@@ -2,10 +2,15 @@
 <head>
 </head>
 <body ng-app="app">
-<div hello-to="AngularJS">
-    Hello, {{userName}}
-    <button ng-click="sayHello()">Alert</button>
+
+<div log='some-div'>some div</div>
+
+<div log='parent'>
+    parent
+    <div log='..first-child'>first child</div>
+    <div log='..second-child'>second child</div>
 </div>
+
 <script src="./node_modules/angular/angular.js"></script>
 <script src="./app.js"></script>
 </body>
